@@ -18,8 +18,8 @@ Permite ao usuario navegar rapidamente pelo site.
 Carrosel de imagens: 
 Imagens de atividades da paróquia ficam em Loop, podem ser selecionadas manualemnte tmabem..
 
-Rádio integraddaa: 
-Rádio integrada o usuario pode ouvir enquanto navega.
+Rádio integrada: 
+O usuario pode ouvir enquanto navega.
 
 informações e atividades da instituição.
 
