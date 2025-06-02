@@ -30,5 +30,9 @@ Projeto web institucional desenvolvido para uma Paróquia, utilizando HTML, CSS 
 A aplicação possui interface interativa com navegação por menu fixo no topo da página. As seções do site apresentam informações institucionais,
 atividades da igreja e integração com um botão de Play e Stop de rádio online que mantém a reprodução contínua durante a navegação, promovendo a conexão dos fiéis com as músicas da igreja.
 
-![Uploading Paróquia do Carmo e São Benedito - Google Chrome 01_06_2025 22_37_51.png…]()
+
+
+
+![Paróquia do Carmo e São Benedito - Google Chrome 01_06_2025 22_37_51](https://github.com/user-attachments/assets/99dacb0b-f0bd-4f5b-93cd-9998b98dfda2)
+
 
