@@ -1,0 +1,341 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+body{
+    background: linear-gradient(90deg, rgb(124, 174, 194) 0%, rgb(209, 243, 223));
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #185f7a;
+    background: linear-gradient(90deg, rgba(24, 95, 122, 1) 0%, rgb(30, 143, 77) 100%, rgba(237, 221, 83, 1) 100%);
+    z-index: 1;
+}
+
+/* .caixa{
+    width: 300px;
+    height: 300px;
+    background: #185f7a;
+    margin-right: 500px;
+
+} */
+
+ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 350px;
+
+}
+
+li {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+cursor: pointer;
+    padding: 20px;
+}
+
+li:hover {
+    color: rgb(17, 109, 55);
+    background-color: rgba(237, 221, 83, 1);
+    padding: 20px;
+}
+
+li:active {
+    opacity: 0.8;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 71%, rgba(237, 221, 83, 1) 100%);
+    overflow: hidden;
+}
+
+.container-main {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 80px;
+    width: 100vw;
+    height: 100vh;
+    /*Define a autura para alinhar corretamente as imagens*/
+}
+
+.div-img{
+    width: 300px;
+    margin-right: 38px;
+}
+.img-benedito {
+    width: 321px;
+    margin-right:80px
+
+}
+
+
+.img-sracarmo {
+        margin-right: -100px;
+    
+}
+
+.img-brasao {
+    width: 70px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.img-banner-1, .img-banner-2 {
+    width: 450px;
+    border-radius: 40px;
+}
+
+h1 {
+    font-size: 51px;
+    margin-top: 100px;
+    color: aliceblue;
+    max-width: 500px;
+    min-width: 500px;
+    overflow: hidden;
+
+}
+
+/*Efeito maquina de escrever*/
+
+h1::after {
+    content:'|';
+    opacity: 1;
+    margin-left: -15px;
+    display: inline-block;
+    animation: blink .7s infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-size: 40px;
+    margin: 20px;
+    color: rgb(2, 71, 31);
+}
+
+.section-1, .section-2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.section-1 p, .section-2 p{
+    max-width: 400px;
+    font-size: 30px;
+    color: rgb(4, 47, 65);
+    border: 1px solid #ffff;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+strong{
+    color: rgb(1, 29, 41);
+}
+
+span{
+    color: rgb(207, 187, 3) ;
+}
+
+.section-3 p{
+      max-width: 900px;
+    font-size: 30px;
+    color: rgb(4, 47, 65);
+    margin: 20px;
+}
+.div-video{
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-end;
+    border-radius: 50px;
+    border: solid 1px #185f7a;
+    background-color: #185f7a;
+    width: 100%;
+}
+
+
+.container-video{
+    margin: 100px;
+}
+
+.container-rede-social{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+}
+
+.caixa{
+    margin-right: 80px;
+}
+
+footer{
+    background: linear-gradient(90deg, rgba(24, 95, 122, 1) 0%, rgb(30, 143, 77) 100%, rgba(237, 221, 83, 1) 100%);
+    
+
+}
+h4{
+    color: aliceblue;
+    cursor:pointer;
+}
+
+
+.container-footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.cop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+
+}
+.cop p{
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+/*Efeito carrosel*/
+
+.slider{
+            background:linear-gradient(90deg, rgb(69, 156, 190) 0%, rgb(145, 241, 185) 100%, rgb(235, 232, 204) 100%);
+            margin: 0 auto;
+            width: 100%;
+            height: auto;
+            padding: 0 !important;
+            overflow: hidden; /*Não deixa a mostra a tela de rolagem*/
+        }
+
+        .slider-content{
+            width: 400%;
+            height: auto;
+            display: flex;
+        }
+
+        .slider-content input, .img-mobile{
+            display: none;
+        }
+
+        .slide-box{
+            width: 25%;
+            height: auto;
+            position: relative;
+            text-align: center;
+            transition: 1s;
+        }
+
+        .slide-box img{
+            width: 75%;
+        }
+
+        .nav-manual, .nav-auto{
+            position: absolute;
+            width: 100%;
+            margin-top: 50%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .nav-manual .manual-btn, .nav-auto div{
+            border: 1px solid rgb(11, 172, 11);
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: 0.2s;
+
+
+        }
+        /*pseudo classe*/
+        .nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+                margin-right: 10px;
+        }
+
+        .nav-manual .manual-btn:hover{
+            background-color: rgb(11, 172, 11);
+        }
+
+        #radio1:checked ~ .nav-auto .auto-btn1{
+            background-color: rgb(11, 172, 11);
+        }
+        #radio2:checked ~ .nav-auto .auto-btn2{
+            background-color: rgb(11, 172, 11);
+        }
+        #radio3:checked ~ .nav-auto .auto-btn3{
+            background-color: rgb(11, 172, 11);
+        }
+
+        #radio1:checked ~ .active{
+            margin-left: 0%;
+        }
+        #radio2:checked ~ .active{
+            margin-left: -25%;
+        }
+        #radio3:checked ~ .active{
+            margin-left: -50%;
+        }
+
+        @media screen and (max-width: 900px){
+            .img-desktop{
+                display: none;
+            }
+
+            .img-mobile{
+                display: block;
+                margin: 0 auto;
+            }
+
+            .nav-auto, .nav-manual{
+                margin-top: 40%;
+            }
+        }
+
